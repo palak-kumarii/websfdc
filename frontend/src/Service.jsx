@@ -109,41 +109,32 @@ const Service = () => {
             {/* <a href="project.html" className="nav-item nav-link">
               Projects
             </a>   */}
-            <Link  to="/project" className="nav-item nav-link ">Project</Link>
+            
+            <Link  to="/blog" className="nav-item nav-link ">Blog</Link>
 
 
-            <div className="nav-item dropdown">
+            {/* <div className="nav-item dropdown">
               <a
                 href="#"
                 className="nav-link dropdown-toggle"
                 data-bs-toggle="dropdown"
-              >
+              >  <Link  to="/blog" className="nav-item nav-link active ">Blog</Link>
                 Pages
               </a>
               <div className="dropdown-menu m-0">
-                {/* <a href="blog.html" className="dropdown-item">
-                  Our Blog
-                </a> */}
+               
                  <Link  to="/blog" className="dropdown-item  ">Our Blog</Link>
 
-                {/* <a href="team.html" className="dropdown-item">
-                  Our Team
-                </a> */}
+              
                 <Link  to="/team" className="dropdown-item  ">Our Team</Link>
-                {/* <a href="testimonial.html" className="dropdown-item">
-                  Testimonial
-                </a> */}
+            
                 <Link  to="/testimonial" className="dropdown-item  ">Our </Link>
-                {/* <a href="faqs.html" className="dropdown-item">
-                  FAQs
-                </a> */}
+             
                 <Link  to="/404" className="dropdown-item  ">Our Blog</Link>
-                {/* <a href="404.html" className="dropdown-item">
-                  404 Page
-                </a> */}
+              
                 <Link  to="/blog" className="dropdown-item  ">Our Blog</Link>
               </div>
-            </div>
+            </div> */}
             {/* <a href="contact.html" className="nav-item nav-link">
               Contact
             </a> */}
@@ -224,9 +215,9 @@ const Service = () => {
         <li className="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li className="breadcrumb-item">
+        {/* <li className="breadcrumb-item">
           <a href="#">Pages</a>
-        </li>
+        </li> */}
         <li className="breadcrumb-item active text-primary">Service</li>
       </ol>
     </div>
@@ -243,8 +234,14 @@ const Service = () => {
         <h4 className="text-primary">Our Services</h4>
         <h1 className="display-4">
           {" "}
-          Offering the Best Consulting &amp; Investa Services
+       We Provide Expert Salesforce & Web Development Services
         </h1>
+        <p className="text-muted mb-5">
+    At WebSFDC Technology, we specialize in Salesforce development,
+     Lightning Web Components (LWC), and custom web development solutions 
+     to help businesses enhance their operations and online presence.
+    </p>
+
       </div>
       <div className="row g-4 justify-content-center text-center">
         <div
@@ -254,7 +251,7 @@ const Service = () => {
           <div className="service-item bg-light rounded">
             <div className="service-img">
               <img
-                src="assets/img/service-1.jpg"
+                src="assets/img/service-1.jpeg"
                 className="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -262,12 +259,11 @@ const Service = () => {
             <div className="service-content text-center p-4">
               <div className="service-content-inner">
                 <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                  <i className="fas fa-donate fa-2x me-2" /> Business Strategy
-                  Invesments
+                  <i className="fas fa-donate fa-2x me-2" />Salesforce Development
                 </a>
                 <p className="mb-4">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Earum nobis est sapiente natus officiis maxime
+                 We offer Salesforce development services including custom applications, 
+                 integrations, and automations to boost your business performance and drive growth.
                 </p>
                 <a className="btn btn-light rounded-pill py-2 px-4" href="#">
                   Read More
@@ -283,7 +279,7 @@ const Service = () => {
           <div className="service-item bg-light rounded">
             <div className="service-img">
               <img
-                src="assets/img/service-2.jpg"
+                src="assets/img/service-2.jpeg"
                 className="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -291,12 +287,11 @@ const Service = () => {
             <div className="service-content text-center p-4">
               <div className="service-content-inner">
                 <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                  <i className="fas fa-donate fa-2x me-2" /> Consultancy &amp;
-                  Advice
+                  <i className="fas fa-donate fa-2x me-2" /> Lightning Web Development (LWC)
                 </a>
                 <p className="mb-4">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Earum nobis est sapiente natus officiis maxime
+                 Our experts specialize in building dynamic and responsive Lightning Web
+                  Components (LWC) to deliver modern and efficient Salesforce solutions.
                 </p>
                 <a className="btn btn-light rounded-pill py-2 px-4" href="#">
                   Read More
@@ -312,7 +307,7 @@ const Service = () => {
           <div className="service-item bg-light rounded">
             <div className="service-img">
               <img
-                src="assets/img/service-4.jpg"
+                src="assets/img/service-4.jpeg"
                 className="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -320,11 +315,11 @@ const Service = () => {
             <div className="service-content text-center p-4">
               <div className="service-content-inner">
                 <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                  <i className="fas fa-donate fa-2x me-2" /> Invesments Planning
+                  <i className="fas fa-donate fa-2x me-2" /> Salesforce Admin Services
                 </a>
                 <p className="mb-4">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Earum nobis est sapiente natus officiis maxime
+                  Our Salesforce admin services help businesses manage their Salesforce
+                   environments efficiently, from user setup and secure data.
                 </p>
                 <a className="btn btn-light rounded-pill py-2 px-4" href="#">
                   Read More
@@ -340,7 +335,7 @@ const Service = () => {
           <div className="service-item bg-light rounded">
             <div className="service-img">
               <img
-                src="assets/img/service-3.jpg"
+                src="assets/img/service-3.jpeg"
                 className="img-fluid w-100 rounded-top"
                 alt=""
               />
@@ -348,12 +343,12 @@ const Service = () => {
             <div className="service-content text-center p-4">
               <div className="service-content-inner">
                 <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                  <i className="fas fa-donate fa-2x me-2" /> Private Client
+                  <i className="fas fa-donate fa-2x me-2" />Web Design & Development
                   Investment
                 </a>
                 <p className="mb-4">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Earum nobis est sapiente natus officiis maxime
+                  We provide custom web design and development services to create visually 
+                  stunning and user-friendly websites that elevate your brand’s online presence.
                 </p>
                 <a className="btn btn-light rounded-pill py-2 px-4" href="#">
                   Read More
@@ -375,141 +370,102 @@ const Service = () => {
     </div>
   </div>
   {/* Services End */}
-  {/* Testimonial Start */}
-  <div className="container-fluid testimonial bg-light py-5">
-    <div className="container py-5">
-      <div className="row g-4 align-items-center">
-        <div className="col-xl-4 wow fadeInLeft" data-wow-delay="0.1s">
-          <div className="h-100 rounded">
-            <h4 className="text-primary">Our Feedbacks </h4>
-            <h1 className="display-4 mb-4">Clients are Talking</h1>
-            <p className="mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-              atque soluta unde itaque. Consequatur quam odit blanditiis harum
-              veritatis porro.
-            </p>
-            <a
-              className="btn btn-primary rounded-pill text-white py-3 px-5"
-              href="#"
-            >
-              Read All Reviews <i className="fas fa-arrow-right ms-2" />
-            </a>
-          </div>
-        </div>
-        <div className="col-xl-8">
-          <div
-            className="testimonial-carousel owl-carousel wow fadeInUp"
-            data-wow-delay="0.1s"
-          >
-            <div
-              className="testimonial-item bg-white rounded p-4 wow fadeInUp"
-              data-wow-delay="0.3s"
-            >
-              <div className="d-flex">
-                <div>
-                  <i className="fas fa-quote-left fa-3x text-dark me-3" />
-                </div>
-                <p className="mt-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Magnam eos impedit eveniet dolorem culpa ullam incidunt vero
-                  quo recusandae nemo? Molestiae doloribus iure,
-                </p>
-              </div>
-              <div className="d-flex justify-content-end">
-                <div className="my-auto text-end">
-                  <h5>Person Name</h5>
-                  <p className="mb-0">Profession</p>
-                </div>
-                <div className="bg-white rounded-circle ms-3">
-                  <img
-                    src="assets/img/testimonial-1.jpg"
-                    className="rounded-circle p-2"
-                    style={{
-                      width: 80,
-                      height: 80,
-                      border: "1px solid",
-                      borderColor: "var(--bs-primary)"
-                    }}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="testimonial-item bg-white rounded p-4 wow fadeInUp"
-              data-wow-delay="0.5s"
-            >
-              <div className="d-flex">
-                <div>
-                  <i className="fas fa-quote-left fa-3x text-dark me-3" />
-                </div>
-                <p className="mt-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Magnam eos impedit eveniet dolorem culpa ullam incidunt vero
-                  quo recusandae nemo? Molestiae doloribus iure,
-                </p>
-              </div>
-              <div className="d-flex justify-content-end">
-                <div className="my-auto text-end">
-                  <h5>Person Name</h5>
-                  <p className="mb-0">Profession</p>
-                </div>
-                <div className="bg-white rounded-circle ms-3">
-                  <img
-                    src="assets/img/testimonial-2.jpg"
-                    className="rounded-circle p-2"
-                    style={{
-                      width: 80,
-                      height: 80,
-                      border: "1px solid",
-                      borderColor: "var(--bs-primary)"
-                    }}
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
-            <div
-              className="testimonial-item bg-white rounded p-4 wow fadeInUp"
-              data-wow-delay="0.7s"
-            >
-              <div className="d-flex">
-                <div>
-                  <i className="fas fa-quote-left fa-3x text-dark me-3" />
-                </div>
-                <p className="mt-4">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Magnam eos impedit eveniet dolorem culpa ullam incidunt vero
-                  quo recusandae nemo? Molestiae doloribus iure,
-                </p>
-              </div>
-              <div className="d-flex justify-content-end">
-                <div className="my-auto text-end">
-                  <h5>Person Name</h5>
-                  <p className="mb-0">Profession</p>
-                </div>
-                <div className="bg-white rounded-circle ms-3">
-                  <img
-                    src="assets/img/testimonial-3.jpg"
-                    className="rounded-circle p-2"
-                    style={{
-                      width: 80,
-                      height: 80,
-                      border: "1px solid",
-                      borderColor: "var(--bs-primary)"
-                    }}
-                    alt=""
-                  />
-                </div>
+{/* Testimonial Start */}
+<div className="container-fluid bg-white py-5">
+  <div className="container text-center">
+
+    {/* Heading */}
+    <h4 className="text-primary fw-bold">Testimonial</h4>
+    <h2 className="fw-bold display-5 mb-3">
+      What Our Customers Are Saying About <br /> Websfdc Technology
+    </h2>
+    <p className="text-muted mb-5">
+      At Websfdc Technology, we take pride in delivering top-notch Salesforce web development solutions. 
+      Here’s what our satisfied clients have to say about working with us:
+    </p>
+
+    {/* Testimonials with Arrows */}
+    <div className="d-flex justify-content-between align-items-center">
+
+
+      {/* Testimonial Cards */}
+      <div className="d-flex flex-wrap justify-content-center gap-4">
+
+        {/* Card 1 */}
+        <div className="card shadow-sm border-0 p-3" style={{ maxWidth: "420px" }}>
+          <div className="d-flex align-items-start">
+            <img 
+              src="assets/img/testimonial-1.jpeg" 
+              className="rounded" 
+              style={{ width: "100px", height: "100px", objectFit: "cover" }} 
+              alt="Michael Brown" 
+            />
+            <div className="ms-3">
+              <h5 className="mb-1">Michael Brown</h5>
+              <p className="text-muted mb-1">Salesforce Administrator</p>
+              <div className="text-warning mb-2">
+                ★★★★☆
               </div>
             </div>
           </div>
+          <p className="text-muted mt-3 mb-0">
+            "The team at Websfdc Technology helped us streamline our processes and integrate Salesforce seamlessly. 
+            Their expertise and support made a huge difference in our operations!"
+          </p>
         </div>
+{/* card 2 */}
+ <div className="card shadow-sm border-0 p-3" style={{ maxWidth: "420px" }}>
+          <div className="d-flex align-items-start">
+            <img 
+              src="assets/img/testimonial-2.jpeg" 
+              className="rounded" 
+              style={{ width: "100px", height: "100px", objectFit: "cover" }} 
+              alt="Michael Brown" 
+            />
+            <div className="ms-3">
+              <h5 className="mb-1">Sarah Williams</h5>
+              <p className="text-muted mb-1">Salesforce Project Manager</p>
+              <div className="text-warning mb-2">
+                ★★★★☆
+              </div>
+            </div>
+          </div>
+          <p className="text-muted mt-3 mb-0">
+           "Websfdc Technology completely transformed our Salesforce platform!
+            Their team provided exceptional web development services, delivering 
+            a highly customized solution that exceeded our expectations."
+          </p>
+        </div>
+        {/* Card 3 */}
+        <div className="card shadow-sm border-0 p-3" style={{ maxWidth: "420px" }}>
+          <div className="d-flex align-items-start">
+            <img 
+              src="assets/img/testimonial-3.jpeg" 
+              className="rounded" 
+              style={{ width: "100px", height: "100px", objectFit: "cover" }} 
+              alt="Jessica Davis" 
+            />
+            <div className="ms-3">
+              <h5 className="mb-1">Jessica Davis</h5>
+              <p className="text-muted mb-1">Salesforce Consultant</p>
+              <div className="text-warning mb-2">
+                ★★★★☆
+              </div>
+            </div>
+          </div>
+          <p className="text-muted mt-3 mb-0">
+            "I couldn't be more satisfied with Websfdc Technology’s work. 
+            They crafted an efficient and user-friendly Salesforce web platform 
+            that made a significant impact on our productivity!"
+          </p>
+        </div>
+
       </div>
     </div>
   </div>
-  {/* Testimonial End */}
-  {/* FAQ Start */}
+</div>
+{/* Testimonial End */}
+    {/* FAQ Start */}
   <div className="container-fluid faq py-5">
     <div className="container py-5">
       <div className="row g-5 align-items-center">
@@ -527,9 +483,9 @@ const Service = () => {
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseOne"
                   aria-expanded="true"
-                  aria-controls="collapseTOne"
-                >
-                  What Does a Financial Advisor Do?
+                  aria-controls="collapseTOne">
+                Q: What is Salesforce development?
+                                        
                 </button>
               </h2>
               <div
@@ -539,13 +495,13 @@ const Service = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body my-2">
-                  <h5>Dolor sit amet consectetur adipisicing elit.</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    nemo impedit, sapiente quis illo quia nulla atque maxime
-                    fuga minima ipsa quae cum consequatur, sit, delectus
-                    exercitationem odit officiis maiores! Neque, quidem corrupti
-                    modi architecto eos saepe incidunt dignissimos rerum.
+                 A: Salesforce development involves customizing the Salesforce 
+                 platform through coding (Apex) and building dynamic applications
+                  using Lightning Web Components (LWC) to cater to the specific needs 
+                  of your business. It helps optimize sales, service, and marketing operations
+                   with tailored features.
+                                        
                   </p>
                 </div>
               </div>
@@ -558,9 +514,10 @@ const Service = () => {
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
                   aria-expanded="false"
-                  aria-controls="collapseTwo"
-                >
-                  What industries do you specialize in?
+                  aria-controls="collapseTwo">
+                 
+                Q: What is the difference between Salesforce admin and Salesforce developer?
+  
                 </button>
               </h2>
               <div
@@ -570,13 +527,13 @@ const Service = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body my-2">
-                  <h5>Dolor sit amet consectetur adipisicing elit.</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    nemo impedit, sapiente quis illo quia nulla atque maxime
-                    fuga minima ipsa quae cum consequatur, sit, delectus
-                    exercitationem odit officiis maiores! Neque, quidem corrupti
-                    modi architecto eos saepe incidunt dignissimos rerum.
+                   A: Salesforce Admin focuses on managing and configuring the 
+                   Salesforce environment, such as user permissions, data management,
+                    and reporting. A Salesforce Developer, on the other hand, writes code,
+                     customizes the platform, and builds custom applications using Apex and
+                      LWC to extend Salesforce functionality.
+                                        
                   </p>
                 </div>
               </div>
@@ -589,9 +546,9 @@ const Service = () => {
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseThree"
                   aria-expanded="false"
-                  aria-controls="collapseThree"
-                >
-                  Can you guarantee for growth?
+                  aria-controls="collapseThree">
+               Q: How can Salesforce help my business?
+                                        
                 </button>
               </h2>
               <div
@@ -601,13 +558,12 @@ const Service = () => {
                 data-bs-parent="#accordionExample"
               >
                 <div className="accordion-body my-2">
-                  <h5>Dolor sit amet consectetur adipisicing elit.</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    nemo impedit, sapiente quis illo quia nulla atque maxime
-                    fuga minima ipsa quae cum consequatur, sit, delectus
-                    exercitationem odit officiis maiores! Neque, quidem corrupti
-                    modi architecto eos saepe incidunt dignissimos rerum.
+                A: Salesforce provides a unified platform for managing sales, 
+                customer service, marketing, and analytics. It helps businesses
+                 streamline processes, gain valuable insights into customer data, 
+                 and automate tasks, leading to better efficiency, productivity, and customer satisfaction.
+
                   </p>
                 </div>
               </div>
@@ -620,25 +576,23 @@ const Service = () => {
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseFour"
                   aria-expanded="false"
-                  aria-controls="collapseFour"
-                >
-                  What makes your business plans so special?
+                  aria-controls="collapseFour">
+              Q: What is Lightning Web Components (LWC)?
+                                        
                 </button>
               </h2>
               <div
                 id="collapseFour"
                 className="accordion-collapse collapse"
                 aria-labelledby="headingFour"
-                data-bs-parent="#accordionExample"
-              >
+                data-bs-parent="#accordionExample" >
                 <div className="accordion-body my-2">
-                  <h5>Dolor sit amet consectetur adipisicing elit.</h5>
                   <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    nemo impedit, sapiente quis illo quia nulla atque maxime
-                    fuga minima ipsa quae cum consequatur, sit, delectus
-                    exercitationem odit officiis maiores! Neque, quidem corrupti
-                    modi architecto eos saepe incidunt dignissimos rerum.
+             A: Lightning Web Components (LWC) is a programming model 
+             for building fast and modern web applications on the Salesforce platform.
+              It allows developers to create reusable, lightweight components with improved
+               performance and enhanced user experiences, fully leveraging the latest web standards.
+                                        
                   </p>
                 </div>
               </div>
@@ -648,7 +602,7 @@ const Service = () => {
         <div className="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
           <div className="faq-img RotateMoveRight rounded">
             <img
-              src="assets/img/faq-img.jpg"
+              src="assets/img/faq-img.jpeg"
               className="img-fluid rounded w-100"
               alt="Image"
             />
@@ -694,30 +648,15 @@ const Service = () => {
           </div>
         </div>
         <div className="col-md-6 col-lg-6 col-xl-3">
-          <div className="footer-item d-flex flex-column">
-            <h4 className="text-white mb-4">Explore</h4>
-            <a href="#">
-              <i className="fas fa-angle-right me-2" /> Home
-            </a>
-            <a href="#">
-              <i className="fas fa-angle-right me-2" /> Services
-            </a>
-            <a href="#">
-              <i className="fas fa-angle-right me-2" /> About Us
-            </a>
-            <a href="#">
-              <i className="fas fa-angle-right me-2" /> Latest Projects
-            </a>
-            <a href="#">
-              <i className="fas fa-angle-right me-2" /> testimonial
-            </a>
-            <a href="#">
-              <i className="fas fa-angle-right me-2" /> Our Team
-            </a>
-            <a href="#">
-              <i className="fas fa-angle-right me-2" /> Contact Us
-            </a>
-          </div>
+         <div className="footer-item d-flex flex-column">
+                <h4 className="text-white mb-4">Use Links</h4>
+                <a href="#"><i className="fas fa-angle-right me-2" /> About Us</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Features</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Services</a>
+                {/* <a href="#"><i className="fas fa-angle-right me-2" /> FAQ's</a> */}
+                <a href="#"><i className="fas fa-angle-right me-2" /> Blogs</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Contact</a>
+              </div>
         </div>
         <div className="col-md-6 col-lg-6 col-xl-3">
           <div className="footer-item d-flex flex-column">

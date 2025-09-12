@@ -72,8 +72,8 @@ const Header = () => {
                 <Link to="/" className="nav-item nav-link active">Home</Link>
                 <Link to="/about" className="nav-item nav-link">About</Link>
                 <Link to="/service" className="nav-item nav-link">Service</Link>
-                <Link to="/project" className="nav-item nav-link">Project</Link>
-
+                <Link  to="/blog" className="nav-item nav-link active ">Blog</Link>
+{/* 
                 <div className="nav-item dropdown">
                   <a
                     href="#"
@@ -89,7 +89,7 @@ const Header = () => {
                     <Link to="/faqs" className="dropdown-item">FAQs</Link>
                     <Link to="/404" className="dropdown-item">404 Page</Link>
                   </div>
-                </div>
+                </div> */}
 
                 <Link to="/contact" className="nav-item nav-link">Contact</Link>
               </div>

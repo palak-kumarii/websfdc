@@ -64,9 +64,9 @@ const FAQs = () => {
                 <Link to="/" className="nav-item nav-link">Home</Link>
                 <Link to="/About" className="nav-item nav-link">About</Link>
                 <Link to="/Service" className="nav-item nav-link">Services</Link>
-                <Link to="/Project" className="nav-item nav-link">Projects</Link>
+            <Link  to="/blog" className="nav-item nav-link active ">Blog</Link>
 
-                <div className="nav-item dropdown">
+                {/* <div className="nav-item dropdown">
                             <a
                               href="#"
                               className="nav-link dropdown-toggle"
@@ -91,7 +91,7 @@ const FAQs = () => {
                                 404 Page
                               </Link>
                             </div>
-                          </div>
+                          </div> */}
 
                 <Link to="/Contact" className="nav-item nav-link">Contact</Link>
               </div>
@@ -117,7 +117,7 @@ const FAQs = () => {
           <h4 className="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Our FAQs</h4>
           <ol className="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
             <li className="breadcrumb-item"><Link to="/">Home</Link></li>
-            <li className="breadcrumb-item"><a href="#">Pages</a></li>
+            {/* <li className="breadcrumb-item"><a href="#">Pages</a></li> */}
             <li className="breadcrumb-item active text-primary">FAQs</li>
           </ol>
         </div>
@@ -221,16 +221,15 @@ const FAQs = () => {
               </div>
             </div>
 
-            <div className="col-md-6 col-lg-6 col-xl-3">
-              <h4 className="text-white mb-4">Explore</h4>
-              <Link to="/">Home</Link>
-              <Link to="/Service">Services</Link>
-              <Link to="/About">About Us</Link>
-              <Link to="/Project">Latest Projects</Link>
-              <Link to="/Testimonial">Testimonial</Link>
-              <Link to="/Team">Our Team</Link>
-              <Link to="/Contact">Contact Us</Link>
-            </div>
+             <div className="footer-item d-flex flex-column">
+                <h4 className="text-white mb-4">Use Links</h4>
+                <a href="#"><i className="fas fa-angle-right me-2" /> About Us</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Features</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Services</a>
+                {/* <a href="#"><i className="fas fa-angle-right me-2" /> FAQ's</a> */}
+                <a href="#"><i className="fas fa-angle-right me-2" /> Blogs</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Contact</a>
+              </div>
 
             <div className="col-md-6 col-lg-6 col-xl-3">
               <h4 className="text-white mb-4">Contact Info</h4>

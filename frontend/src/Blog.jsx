@@ -78,11 +78,9 @@ const Blog = () => {
                 <Link to="/service" className="nav-item nav-link">
                   Service
                 </Link>
-                <Link to="/project" className="nav-item nav-link">
-                  Project
-                </Link>
+                 <Link  to="/blog" className="nav-item nav-link active ">Blog</Link>
 
-                <div className="nav-item dropdown">
+                {/* <div className="nav-item dropdown">
                             <a
                               href="#"
                               className="nav-link dropdown-toggle"
@@ -107,7 +105,7 @@ const Blog = () => {
                                 404 Page
                               </Link>
                             </div>
-                          </div>
+                          </div> */}
                 <Link to="/contact" className="nav-item nav-link">
                   Contact
                 </Link>
@@ -150,111 +148,125 @@ const Blog = () => {
             <li className="breadcrumb-item">
               <Link to="/">Home</Link>
             </li>
-            <li className="breadcrumb-item">
+            {/* <li className="breadcrumb-item">
               <a href="#">Pages</a>
-            </li>
+            </li> */}
             <li className="breadcrumb-item active text-primary">Blog</li>
           </ol>
         </div>
       </div>
       {/* Header End */}
 
-      {/* Blog Start */}
-      <div className="container-fluid blog py-5">
-        <div className="container py-5">
-          <div
-            className="text-center mx-auto pb-5 wow fadeInUp"
-            data-wow-delay="0.1s"
-            style={{ maxWidth: 800 }}
-          >
-            <h4 className="text-primary">Our Blogs</h4>
-            <h1 className="display-4">
-              Latest Articles &amp; News from the Blogs
-            </h1>
-          </div>
-          <div className="row g-4 justify-content-center">
-            {/* Blog Cards */}
-            {[
-              {
-                title: "Investment",
-                date: "Mar 14, 2024",
-                author: "Mark D. Brock",
-                img: "assets/img/blog-1.jpg",
-                link: "#",
-                desc: "Revisiting Your Investment & Distribution Goals",
-              },
-              {
-                title: "Business",
-                date: "Mar 14, 2024",
-                author: "Mark D. Brock",
-                img: "assets/img/blog-2.jpg",
-                link: "#",
-                desc: "Dimensional Fund Advisors Interview with Director",
-              },
-              {
-                title: "Consulting",
-                date: "Mar 14, 2024",
-                author: "Mark D. Brock",
-                img: "assets/img/blog-3.jpg",
-                link: "#",
-                desc: "Interested in Giving Back this year? Here are some tips",
-              },
-            ].map((blog, i) => (
-              <div
-                key={i}
-                className="col-md-6 col-lg-6 col-xl-4 wow fadeInUp"
-                data-wow-delay={`${0.1 * (i + 1)}s`}
-              >
-                <div
-                  className="blog-item bg-light rounded p-4"
-                  style={{ backgroundImage: "url(assets/img/bg.png)" }}
-                >
-                  <div className="mb-4">
-                    <h4 className="text-primary mb-2">{blog.title}</h4>
-                    <div className="d-flex justify-content-between">
-                      <p className="mb-0">
-                        <span className="text-dark fw-bold">On</span> {blog.date}
-                      </p>
-                      <p className="mb-0">
-                        <span className="text-dark fw-bold">By</span>{" "}
-                        {blog.author}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="project-img">
-                    <img
-                      src={blog.img}
-                      className="img-fluid w-100 rounded"
-                      alt="Blog"
-                    />
-                    <div className="blog-plus-icon">
-                      <a
-                        href={blog.img}
-                        data-lightbox={`blog-${i}`}
-                        className="btn btn-primary btn-md-square rounded-pill"
-                      >
-                        <i className="fas fa-plus fa-1x" />
-                      </a>
-                    </div>
-                  </div>
-                  <div className="my-4">
-                    <a href={blog.link} className="h4">
-                      {blog.desc}
-                    </a>
-                  </div>
-                  <a
-                    className="btn btn-primary rounded-pill py-2 px-4"
-                    href={blog.link}
-                  >
-                    Explore More
-                  </a>
-                </div>
+       {/* Blog Start */}
+  <div className="container-fluid service py-5">
+    <div className="container py-5">
+      <div
+        className="text-center mx-auto pb-5 wow fadeInUp"
+        data-wow-delay="0.1s"
+        style={{ maxWidth: 800 }}
+      >
+        <h4 className="text-primary">From Blog</h4>
+        <h1 className="display-4">
+          {" "}
+    Salesforce News and Updates
+        </h1>
+        <p className="text-muted mb-5">
+   Stay up to date with the latest trends, 
+   updates, and innovations in Salesforce development, 
+   LWC, Apex, and much more. Read our blog to gain valuable 
+   insights into the Salesforce ecosystem.
+    </p>
+      </div>
+      <div className="row g-4 justify-content-center text-center">
+        <div
+          className="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+          data-wow-delay="0.1s"
+        >
+          <div className="service-item bg-light rounded">
+            <div className="service-img">
+             <img
+                src="assets/img/blog-1.jpeg"
+                className="img-fluid w-100 rounded"
+                alt="Image"
+              />
+            </div>
+            <div className="service-content text-center p-4">
+              <div className="service-content-inner">
+                <a href="#" className="h4 mb-4 d-inline-flex text-start">
+                  <i />How Lightning Web Components are Revolutionizing Salesforce Development
+                </a>
+                <p className="mb-4">
+Explore the power of Lightning Web Components (LWC) and how they are transforming the way Salesforce developers create fast, efficient.
+                </p>
+                <a className="btn btn-light rounded-pill py-2 px-4" href="#">
+                  Read More
+                </a>
               </div>
-            ))}
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+          data-wow-delay="0.3s"
+        >
+          <div className="service-item bg-light rounded">
+            <div className="service-img">
+              <img
+                src="assets/img/blog-2.jpeg"
+                className="img-fluid w-100 rounded"
+                alt="Image"
+              />
+            </div>
+            <div className="service-content text-center p-4">
+              <div className="service-content-inner">
+                <a href="#" className="h4 mb-4 d-inline-flex text-start">
+                  <i />Apex Programming Best Practices for Salesforce Developers
+                </a>
+                <p className="mb-4">
+         Learn the best practices when writing Apex code to ensure scalability, security, and maintainability 
+         in your Salesforce development projects. Implementing these practices.
+                </p>
+                <a className="btn btn-light rounded-pill py-2 px-4" href="#">
+                  Read More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
+          data-wow-delay="0.5s"
+        >
+          <div className="service-item bg-light rounded">
+            <div className="service-img">
+              <img
+               src="assets/img/blog-3.jpeg"
+                className="img-fluid w-100 rounded"
+                alt="Image"
+              />
+            </div>
+            <div className="service-content text-center p-4">
+              <div className="service-content-inner">
+                <a href="#" className="h4 mb-4 d-inline-flex text-start">
+                  <i />The Importance of Salesforce Integration for Your Business Salesforce
+
+                                
+                </a>
+                <p className="mb-4">
+        Salesforce integration can take your business to the next level. Learn how connecting Salesforce with your existing systems 
+        can enhance efficiency.
+                </p>
+                <a className="btn btn-light rounded-pill py-2 px-4" href="#">
+                  Read More
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-      {/* Blog End */}
+    </div>
+  </div>
+  {/* Blog End */}
 
       {/* Footer Start */}
       <div className="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
@@ -291,9 +303,12 @@ const Blog = () => {
                 <a href="#"><i className="fas fa-angle-right me-2" /> Home</a>
                 <a href="#"><i className="fas fa-angle-right me-2" /> Services</a>
                 <a href="#"><i className="fas fa-angle-right me-2" /> About Us</a>
-                <a href="#"><i className="fas fa-angle-right me-2" /> Projects</a>
+                  <a href="#">
+              <i className="fas fa-angle-right me-2" /> Our Blog
+            </a>
+                {/* <a href="#"><i className="fas fa-angle-right me-2" /> Projects</a>
                 <a href="#"><i className="fas fa-angle-right me-2" /> Testimonial</a>
-                <a href="#"><i className="fas fa-angle-right me-2" /> Our Team</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Our Team</a> */}
                 <a href="#"><i className="fas fa-angle-right me-2" /> Contact Us</a>
               </div>
             </div>

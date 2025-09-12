@@ -90,10 +90,8 @@ const Testimonial = () => {
                 <Link to="/Service" className="nav-item nav-link">
                   Services
                 </Link>
-                <Link to="/Project" className="nav-item nav-link">
-                  Projects
-                </Link>
-                <div className="nav-item dropdown active">
+                  <Link  to="/blog" className="nav-item nav-link active ">Blog</Link>
+                {/* <div className="nav-item dropdown active">
                   <a
                     href="#"
                     className="nav-link dropdown-toggle active"
@@ -118,7 +116,7 @@ const Testimonial = () => {
                       404 Page
                     </Link>
                   </div>
-                </div>
+                </div> */}
                 <Link to="/Contact" className="nav-item nav-link">
                   Contact
                 </Link>

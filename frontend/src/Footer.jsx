@@ -35,15 +35,14 @@ const Footer = () => {
 
             {/* Explore */}
             <div className="col-md-6 col-lg-6 col-xl-3">
-              <div className="footer-item d-flex flex-column">
-                <h4 className="text-white mb-4">Explore</h4>
-                <Link to="/"><i className="fas fa-angle-right me-2" /> Home</Link>
-                <Link to="/service"><i className="fas fa-angle-right me-2" /> Services</Link>
-                <Link to="/about"><i className="fas fa-angle-right me-2" /> About Us</Link>
-                <Link to="/project"><i className="fas fa-angle-right me-2" /> Latest Projects</Link>
-                <Link to="/testimonial"><i className="fas fa-angle-right me-2" /> Testimonial</Link>
-                <Link to="/team"><i className="fas fa-angle-right me-2" /> Our Team</Link>
-                <Link to="/contact"><i className="fas fa-angle-right me-2" /> Contact Us</Link>
+            <div className="footer-item d-flex flex-column">
+                <h4 className="text-white mb-4">Use Links</h4>
+                <a href="#"><i className="fas fa-angle-right me-2" /> About Us</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Features</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Services</a>
+                {/* <a href="#"><i className="fas fa-angle-right me-2" /> FAQ's</a> */}
+                <a href="#"><i className="fas fa-angle-right me-2" /> Blogs</a>
+                <a href="#"><i className="fas fa-angle-right me-2" /> Contact</a>
               </div>
             </div>
 

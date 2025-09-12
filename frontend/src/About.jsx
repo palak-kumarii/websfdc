@@ -106,12 +106,8 @@ const About = () => {
                 Services
               </a> */}
                 <Link  to="/service" className="nav-item nav-link ">Service</Link>
-              {/* <a href="project.html" className="nav-item nav-link">
-                Projects
-              </a>   */}
-              <Link  to="/project" className="nav-item nav-link ">Project</Link>
-  
-  
+    <Link  to="/blog" className="nav-item nav-link active ">Blog</Link>
+{/*   
               <div className="nav-item dropdown">
                 <a
                   href="#"
@@ -137,7 +133,7 @@ const About = () => {
                     404 Page
                   </a>
                 </div>
-              </div>
+              </div> */}
               {/* <a href="contact.html" className="nav-item nav-link">
                 Contact
               </a> */}
@@ -218,9 +214,9 @@ const About = () => {
         <li className="breadcrumb-item">
           <a href="index.html">Home</a>
         </li>
-        <li className="breadcrumb-item">
+        {/* <li className="breadcrumb-item">
           <a href="#">Pages</a>
-        </li>
+        </li> */}
         <li className="breadcrumb-item active text-primary">About</li>
       </ol>
     </div>
@@ -233,51 +229,134 @@ const About = () => {
         <div className="col-lg-6 col-xl-5 wow fadeInLeft" data-wow-delay="0.1s">
           <div className="about-img">
             <img
-              src="assets/img/about-3.png"
+              src="assets/img/about-3.jpeg"
               className="img-fluid w-100 rounded-top bg-white"
               alt="Image"
             />
-            <img
-              src="assets/img/about-2.jpg"
+            {/* <img
+              src="assets/img/about-2.jpeg"
               className="img-fluid w-100 rounded-bottom"
               alt="Image"
-            />
+            /> */}
+            <div className="row g-4 text-center align-items-center justify-content-center">
+            <div className="col-sm-4">
+              <div className="bg-primary rounded p-4">
+                <div className="d-flex align-items-center justify-content-center">
+                  <span
+                    className="counter-value fs-1 fw-bold text-dark"
+                    data-toggle="counter-up"
+                  >
+                    129
+                  </span>
+                  <h4
+                    className="text-dark fs-1 mb-0"
+                    style={{ fontWeight: 600, fontSize: 25 }}
+                  >
+                    +
+                  </h4>
+                </div>
+                <div className="w-100 d-flex align-items-center justify-content-center">
+                  <p className="text-white mb-0">Salesforce Project Completed</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="bg-dark rounded p-4">
+                <div className="d-flex align-items-center justify-content-center">
+                  <span
+                    className="counter-value fs-1 fw-bold text-white"
+                    data-toggle="counter-up"
+                  >
+                    99
+                  </span>
+                  <h4
+                    className="text-white fs-1 mb-0"
+                    style={{ fontWeight: 600, fontSize: 25 }}
+                  >
+                    +
+                  </h4>
+                </div>
+                <div className="w-100 d-flex align-items-center justify-content-center">
+                  <p className="mb-0">Awards & Recognitions</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-sm-4">
+              <div className="bg-primary rounded p-4">
+                <div className="d-flex align-items-center justify-content-center">
+                  <span
+                    className="counter-value fs-1 fw-bold text-dark"
+                    data-toggle="counter-up"
+                  >
+                    556
+                  </span>
+                  <h4
+                    className="text-dark fs-1 mb-0"
+                    style={{ fontWeight: 600, fontSize: 25 }}
+                  >
+                    +
+                  </h4>
+                </div>
+                <div className="w-100 d-flex align-items-center justify-content-center">
+                  <p className="text-white mb-0">Certified Salesforce Experts</p>
+                </div>
+              </div>
+            </div>
+             <div className="col-sm-4">
+              <div className="bg-primary rounded p-4">
+                <div className="d-flex align-items-center justify-content-center">
+                  <span
+                    className="counter-value fs-1 fw-bold text-dark"
+                    data-toggle="counter-up"
+                  >
+                    967
+                  </span>
+                  <h4
+                    className="text-dark fs-1 mb-0"
+                    style={{ fontWeight: 600, fontSize: 25 }}
+                  >
+                    +
+                  </h4>
+                </div>
+                <div className="w-100 d-flex align-items-center justify-content-center">
+                  <p className="text-white mb-0">Happy Clients Worldwide</p>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </div>
         <div
           className="col-lg-6 col-xl-7 wow fadeInRight"
           data-wow-delay="0.3s"
         >
-          <h4 className="text-primary">About Us</h4>
+          <h4 className="text-primary">About WebSFDC Technology</h4>
           <h1 className="display-5 mb-4">
-            The most Profitable Investments company in worldwide.
+           Expert Salesforce Development & Consulting
           </h1>
           <p className="text ps-4 mb-4">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            atque nihil unde quisquam, deleniti illo a. Quam harum laboriosam,
-            laudantium, deleniti perferendis voluptates ex non laborum libero
-            magni, minus illo!
+        At WebSFDC Technology, we specialize in providing customized Salesforce 
+        solutions to help businesses automate, integrate, and optimize their operations.
+         Our team of expert Salesforce developers ensures top-tier solutions tailored to your
+          specific needs, whether you're just getting started with Salesforce or need advanced customization.<br/>
+          As a leading Salesforce consultant, we guide you through every step of your Salesforce journey, from setup 
+          and development to ongoing support and maintenance.
           </p>
           <div className="row g-4 justify-content-between mb-5">
             <div className="col-lg-6 col-xl-5">
               <p className="text-dark">
-                <i className="fas fa-check-circle text-primary me-1" /> Strategy
-                &amp; Consulting
+                <i className="fa fa-check text-primary me-3" />We deliver high-quality, scalable Salesforce solutions.
               </p>
               <p className="text-dark mb-0">
-                <i className="fas fa-check-circle text-primary me-1" /> Business
-                Process
-              </p>
+                <i className="fa fa-check text-primary me-3" /> Expert Salesforce customization and integration services.
+              </p><br/>
             </div>
             <div className="col-lg-6 col-xl-7">
               <p className="text-dark">
-                <i className="fas fa-check-circle text-primary me-1" />{" "}
-                Marketing Rules
+                <i className="fa fa-check text-primary me-3" />{" "}
+             Reliable Salesforce support and optimization.
               </p>
-              <p className="text-dark mb-0">
-                <i className="fas fa-check-circle text-primary me-1" />{" "}
-                Partnerships
-              </p>
+             
             </div>
           </div>
           <div className="row g-4 justify-content-between mb-5">
@@ -289,25 +368,25 @@ const About = () => {
             <div className="col-xl-7 mb-5">
               <div className="about-customer d-flex position-relative">
                 <img
-                  src="assets/img/customer-img-1.jpg"
+                  src="assets/img/customer-img-1.jpeg"
                   className="img-fluid btn-xl-square position-absolute"
                   style={{ left: 0, top: 0 }}
                   alt="Image"
                 />
                 <img
-                  src="assets/img/customer-img-2.jpg"
+                  src="assets/img/customer-img-2.jpeg"
                   className="img-fluid btn-xl-square position-absolute"
                   style={{ left: 45, top: 0 }}
                   alt="Image"
                 />
                 <img
-                  src="assets/img/customer-img-3.jpg"
+                  src="assets/img/customer-img-3.jpeg"
                   className="img-fluid btn-xl-square position-absolute"
                   style={{ left: 90, top: 0 }}
                   alt="Image"
                 />
                 <img
-                  src="assets/img/customer-img-1.jpg"
+                  src="assets/img/customer-img-1.jpeg"
                   className="img-fluid btn-xl-square position-absolute"
                   style={{ left: 135, top: 0 }}
                   alt="Image"
@@ -322,7 +401,7 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="row g-4 text-center align-items-center justify-content-center">
+          {/* <div className="row g-4 text-center align-items-center justify-content-center">
             <div className="col-sm-4">
               <div className="bg-primary rounded p-4">
                 <div className="d-flex align-items-center justify-content-center">
@@ -386,214 +465,150 @@ const About = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
   </div>
   {/* About End */}
-  {/* Team Start */}
-  <div className="container-fluid team py-5">
-    <div className="container py-5">
+ {/* Team Start */}
+  <div className="container-fluid team pb-5">
+    <div className="container pb-5">
       <div
         className="text-center mx-auto pb-5 wow fadeInUp"
         data-wow-delay="0.1s"
         style={{ maxWidth: 800 }}
       >
         <h4 className="text-primary">Our Team</h4>
-        <h1 className="display-4">Our Investa Company Dedicated Team Member</h1>
+        <h1 className="display-5">Meet Our Expert Team Members at Websfdc Technology</h1>
+          <p className="text-muted mb-5">
+   At Websfdc Technology, we specialize in Salesforce web development, offering innovative 
+   solutions to streamline your business processes and enhance customer relationships.
+    </p>
       </div>
-      <div className="row g-4 justify-content-center">
-        <div
-          className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
-          data-wow-delay="0.1s"
-        >
-          <div className="team-item rounded">
-            <div className="team-img">
-              <img
-                src="assets/img/team-1.jpg"
-                className="img-fluid w-100 rounded-top"
-                alt="Image"
-              />
-              <div className="team-icon">
-                <a
-                  className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                  href=""
-                >
-                  <i className="fas fa-share-alt" />
-                </a>
-                <div className="team-icon-share">
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
-                    href=""
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="team-content bg-dark text-center rounded-bottom p-4">
-              <div className="team-content-inner rounded-bottom">
-                <h4 className="text-white">Mark D. Brock</h4>
-                <p className="text-muted mb-0">CEO &amp; Founder</p>
-              </div>
-            </div>
+     <div className="row g-4 justify-content-center">
+  {/* Team Member 1 */}
+  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+    <div className="team-item rounded">
+      <div className="team-img">
+        <img src="assets/img/team-1.jpeg" className="img-fluid w-100 rounded-top" alt="Padam Rana" />
+        <div className="team-icon">
+          <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+            <i className="fas fa-share-alt" />
+          </a>
+          <div className="team-icon-share">
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-facebook-f" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-twitter" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="">
+              <i className="fab fa-instagram" />
+            </a>
           </div>
         </div>
-        <div
-          className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
-          data-wow-delay="0.3s"
-        >
-          <div className="team-item rounded">
-            <div className="team-img">
-              <img
-                src="assets/img/team-2.jpg"
-                className="img-fluid w-100 rounded-top"
-                alt="Image"
-              />
-              <div className="team-icon">
-                <a
-                  className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                  href=""
-                >
-                  <i className="fas fa-share-alt" />
-                </a>
-                <div className="team-icon-share">
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
-                    href=""
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="team-content bg-dark text-center rounded-bottom p-4">
-              <div className="team-content-inner rounded-bottom">
-                <h4 className="text-white">Mark D. Brock</h4>
-                <p className="text-muted mb-0">CEO &amp; Founder</p>
-              </div>
-            </div>
+      </div>
+      <div className="team-content bg-dark text-center rounded-bottom p-4">
+        <div className="team-content-inner rounded-bottom">
+          <h4 className="text-white">Padam Rana</h4>
+          <p className="text-muted mb-0">Salesforce Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Team Member 2 */}
+  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+    <div className="team-item rounded">
+      <div className="team-img">
+        <img src="assets/img/team-2.jpeg" className="img-fluid w-100 rounded-top" alt="Naveen" />
+        <div className="team-icon">
+          <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+            <i className="fas fa-share-alt" />
+          </a>
+          <div className="team-icon-share">
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-facebook-f" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-twitter" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="">
+              <i className="fab fa-instagram" />
+            </a>
           </div>
         </div>
-        <div
-          className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
-          data-wow-delay="0.5s"
-        >
-          <div className="team-item rounded">
-            <div className="team-img">
-              <img
-                src="assets/img/team-3.jpg"
-                className="img-fluid w-100 rounded-top"
-                alt="Image"
-              />
-              <div className="team-icon">
-                <a
-                  className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                  href=""
-                >
-                  <i className="fas fa-share-alt" />
-                </a>
-                <div className="team-icon-share">
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
-                    href=""
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="team-content bg-dark text-center rounded-bottom p-4">
-              <div className="team-content-inner rounded-bottom">
-                <h4 className="text-white">Mark D. Brock</h4>
-                <p className="text-muted mb-0">CEO &amp; Founder</p>
-              </div>
-            </div>
+      </div>
+      <div className="team-content bg-dark text-center rounded-bottom p-4">
+        <div className="team-content-inner rounded-bottom">
+          <h4 className="text-white">Naveen</h4>
+          <p className="text-muted mb-0">Salesforce Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Team Member 3 */}
+  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+    <div className="team-item rounded">
+      <div className="team-img">
+        <img src="assets/img/team-3.jpeg" className="img-fluid w-100 rounded-top" alt="Sudhir" />
+        <div className="team-icon">
+          <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+            <i className="fas fa-share-alt" />
+          </a>
+          <div className="team-icon-share">
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-facebook-f" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-twitter" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="">
+              <i className="fab fa-instagram" />
+            </a>
           </div>
         </div>
-        <div
-          className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp"
-          data-wow-delay="0.7s"
-        >
-          <div className="team-item rounded">
-            <div className="team-img">
-              <img
-                src="assets/img/team-4.jpg"
-                className="img-fluid w-100 rounded-top"
-                alt="Image"
-              />
-              <div className="team-icon">
-                <a
-                  className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                  href=""
-                >
-                  <i className="fas fa-share-alt" />
-                </a>
-                <div className="team-icon-share">
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-facebook-f" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-3"
-                    href=""
-                  >
-                    <i className="fab fa-twitter" />
-                  </a>
-                  <a
-                    className="btn btn-primary btn-sm-square text-white rounded-circle mb-0"
-                    href=""
-                  >
-                    <i className="fab fa-instagram" />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="team-content bg-dark text-center rounded-bottom p-4">
-              <div className="team-content-inner rounded-bottom">
-                <h4 className="text-white">Mark D. Brock</h4>
-                <p className="text-muted mb-0">CEO &amp; Founder</p>
-              </div>
-            </div>
+      </div>
+      <div className="team-content bg-dark text-center rounded-bottom p-4">
+        <div className="team-content-inner rounded-bottom">
+          <h4 className="text-white">Sudhir</h4>
+          <p className="text-muted mb-0">Salesforce Admin Developer</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Team Member 4 */}
+  <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+    <div className="team-item rounded">
+      <div className="team-img">
+        <img src="assets/img/team-4.jpeg" className="img-fluid w-100 rounded-top" alt="Neha Sharma" />
+        <div className="team-icon">
+          <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+            <i className="fas fa-share-alt" />
+          </a>
+          <div className="team-icon-share">
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-facebook-f" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-3" href="">
+              <i className="fab fa-twitter" />
+            </a>
+            <a className="btn btn-primary btn-sm-square text-white rounded-circle mb-0" href="">
+              <i className="fab fa-instagram" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div className="team-content bg-dark text-center rounded-bottom p-4">
+        <div className="team-content-inner rounded-bottom">
+          <h4 className="text-white">Neha Sharma</h4>
+          <p className="text-muted mb-0">HR Human Resources</p>
+        </div>
+             </div>
+
           </div>
         </div>
       </div>
@@ -641,7 +656,10 @@ const About = () => {
             <a href="#">
               <i className="fas fa-angle-right me-2" /> About Us
             </a>
-            <a href="#">
+             <a href="#">
+              <i className="fas fa-angle-right me-2" /> Our Blog
+            </a>
+            {/* <a href="#">
               <i className="fas fa-angle-right me-2" /> Latest Projects
             </a>
             <a href="#">
@@ -649,7 +667,7 @@ const About = () => {
             </a>
             <a href="#">
               <i className="fas fa-angle-right me-2" /> Our Team
-            </a>
+            </a> */}
             <a href="#">
               <i className="fas fa-angle-right me-2" /> Contact Us
             </a>
