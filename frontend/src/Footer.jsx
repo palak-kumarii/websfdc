@@ -136,10 +136,12 @@ const Footer = () => {
               </div>
               <div>
                 <h6 className="text-white fw-bold mb-1">Address</h6>
-                <p className="small text-light mb-0">
-                  9th floor, Unit 60, Sushma Infinium, Zirakpur, Chandigarh
-                  Punjab, 140603
-                </p>
+                  <a href="https://maps.google.com?q=Sushma+Infinium+Zirakpur"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="small text-light mb-0 d-block">
+                    9th floor, Unit 60, Sushma Infinium, Zirakpur, Chandigarh Punjab, 140603
+                  </a>
               </div>
             </div>
 
@@ -149,7 +151,10 @@ const Footer = () => {
               </div>
               <div>
                 <h6 className="text-white fw-bold mb-1">Mail Us</h6>
-                <p className="small text-light mb-0">info@websfdctech.co.in</p>
+              <a href="mailto:info@websfdctech.co.in"
+                className="small text-light mb-0 d-block">
+                info@websfdctech.co.in
+              </a>
               </div>
             </div>
 
@@ -159,7 +164,9 @@ const Footer = () => {
               </div>
               <div>
                 <h6 className="text-white fw-bold mb-1">Telephone</h6>
-                <p className="small text-light mb-0">+91 7015548507</p>
+                <a href="tel:+917015548507" className="small text-light mb-0 d-block">
+                  +91 7015548507
+                </a>
               </div>
             </div>
           </div>
