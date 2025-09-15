@@ -35,7 +35,7 @@ const Home = () => {
 
     {/* Item 2 - Services */}
     <div className="carousel-item">
-      <img src="assets/img/carousel-2.jepg" className="d-block w-100" alt="Image" />
+      <img src="assets/img/carousel-2.jpeg" className="d-block w-100" alt="Image" />
       <div className="carousel-caption text-center p-3">
         <h4 className="text-white text-uppercase fw-bold mb-3 animate__animated animate__fadeInDown" style={{ animationDelay: "0.8s" }}>
           Our Services

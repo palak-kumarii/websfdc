@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-// import axios from "axios";
+import axios from "axios";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -41,23 +41,6 @@ const Contact = () => {
 
   return (
     <>
-    
-
-      {/* Header Section */}
-      <div className="container-fluid bg-breadcrumb">
-        <div className="bg-breadcrumb-single" />
-        <div className="container text-center py-5" style={{ maxWidth: 900 }}>
-          <h4 className="text-white display-4 mb-4">Contact Us</h4>
-          <ol className="breadcrumb justify-content-center mb-0">
-            <li className="breadcrumb-item">
-              <Link to="/">Home</Link>
-            </li>
-            {/* <li className="breadcrumb-item">Pages</li> */}
-            <li className="breadcrumb-item active text-primary">Contact</li>
-          </ol>
-        </div>
-      </div>
-
       {/* Contact Section */}
       <div className="container-fluid contact bg-light py-5">
         <div className="container py-5">
