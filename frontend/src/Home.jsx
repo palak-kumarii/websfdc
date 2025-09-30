@@ -33,10 +33,10 @@ const Home = () => {
       </div>
     </div>
 
-    {/* Item 2 - Services */}
+  {/* Item 2 - Services (Updated) */}
     <div className="carousel-item">
       <img src="assets/img/carousel-2.jpeg" className="d-block w-100" alt="Image" />
-      <div className="carousel-caption text-center p-3">
+      <div className="carousel-caption text-start p-3">
         <h4 className="text-white text-uppercase fw-bold mb-3 animate__animated animate__fadeInDown" style={{ animationDelay: "0.8s" }}>
           Our Services
         </h4>
@@ -50,12 +50,11 @@ const Home = () => {
         <a className="btn btn-primary rounded-pill py-3 px-5 me-3 animate__animated animate__fadeInUp" style={{ animationDelay: "2s" }} href="#">
           Explore Services
         </a>
-        <a className="btn btn-light text-dark rounded-pill py-3 px-5 animate__animated animate__fadeInUp" style={{ animationDelay: "2.2s" }} href="#">
+        <a className="btn btn-dark rounded-pill py-3 px-5 animate__animated animate__fadeInUp" style={{ animationDelay: "2.2s" }} href="#">
           Contact Us
         </a>
       </div>
     </div>
-
     {/* Item 3 - Trust */}
     <div className="carousel-item">
       <img src="assets/img/carousel-3.jpeg" className="d-block w-100" alt="Image" />

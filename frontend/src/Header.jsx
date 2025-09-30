@@ -29,6 +29,7 @@ const Header = () => {
                 </a>
               </div>
             </div>
+            
 
             {/* Right side - Socials */}
             <div className="col-lg-4 text-center text-lg-end">
